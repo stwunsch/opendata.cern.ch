@@ -1,0 +1,113 @@
+[
+  {
+    "abstract": {
+      "description": "<p>Simulated dataset TTToHadronic_TuneCP5_13TeV-powheg-pythia8 in GEN-SIM (see <a href=\"/docs/cms-mc-production-overview\">CMS Monte Carlo production overview</a>) format for LHC Phase2 studies.</p><p>See the description of the simulated dataset names in: <a href=\"/about/CMS-Simulated-Dataset-Names\">About CMS simulated dataset names</a>.</p> <p>These simulated datasets will correspond to the collision data that will be collected by the CMS experiment during Phase2.</p> <p>They were released in the context of data science sample production.  </p>"
+    },
+    "accelerator": "CERN-LHC",
+    "categories": {
+      "primary": "Standard Model Physics", 
+      "secondary": [
+        "Top physics"
+      ], 
+      "source": "CMS Collaboration"
+    }, 
+    "collaboration": {
+      "name": "CMS Collaboration"
+    },
+    "collections": [
+      "CMS-Simulated-Datasets"
+    ],
+    "collision_information": {
+      "energy": "13TeV",
+      "type": "pp"
+    },
+    "date_created": [
+      "2019"
+    ],
+    "date_published": "2019",
+    "date_reprocessed": "2019",
+    "distribution": {
+      "formats": [
+        "gen-sim",
+        "root"
+      ],
+      "number_events": 20000,
+      "number_files": 4,
+      "size": 19291020935
+    },
+    "experiment": "CMS",
+    "files": [
+      {
+        "checksum": "FIXME",
+        "description": "TTToHadronic_TuneCP5_13TeV-powheg-pythia8 GEN-SIM dataset file index (1 of 1) for access to data via CMS virtual machine",
+        "size": FIXME,
+        "type": "index.json",
+        "uri": "FIXME"
+      },
+      {
+        "checksum": "FIXME",
+        "description": "TTToHadronic_TuneCP5_13TeV-powheg-pythia8 GEN-SIM  dataset file index (1 of 1) for access to data via CMS virtual machine",
+        "size": FIXME,
+        "type": "index.txt",
+        "uri": "FIXME"
+      }
+    ],
+    "license": {
+      "attribution": "CC0"
+    },
+    "methodology": {
+      "description": "<p>These data were generated in several steps (see also <a href=\"/docs/cms-mc-production-overview\">CMS Monte Carlo Production Overview</a>):</p>\n                           ",
+      "steps": [
+        {
+          "configuration_files": [
+            {
+              "script": "#!/bin/bash \n export SCRAM_ARCH=slc6_amd64_gcc700 \n source /cvmfs/cms.cern.ch/cmsset_default.sh \n if [ -r CMSSW_10_2_12_patch1/src ] ; \n then \n echo release CMSSW_10_2_12_patch1 already exists \n else \n scram p CMSSW CMSSW_10_2_12_patch1 \n fi \n cd CMSSW_10_2_12_patch1/src \n eval `scram runtime -sh` \n \n curl -s --insecure https://cms-pdmv.cern.ch/mcm/public/restapi/requests/get_fragment/PPD-RunIIFall18wmLHEGS-00010 --retry 2 --create-dirs -o Configuration/GenProduction/python/PPD-RunIIFall18wmLHEGS-00010-fragment.py 
+[ -s Configuration/GenProduction/python/PPD-RunIIFall18wmLHEGS-00010-fragment.py ] || exit $?; \n \n scram b \n cd ../../ \n seed=$(date +%s) \n cmsDriver.py Configuration/GenProduction/python/PPD-RunIIFall18wmLHEGS-00010-fragment.py --fileout file:PPD-RunIIFall18wmLHEGS-00010.root --mc --eventcontent RAWSIM,LHE --datatier GEN-SIM,LHE --conditions 102X_upgrade2018_design_v9 --beamspot GaussSigmaZ4cm --step LHE,GEN,SIM --nThreads 8 --geometry DB:Extended --era Run2_2018 --python_filename PPD-RunIIFall18wmLHEGS-00010_1_cfg.py --no_exec --customise Configuration/DataProcessing/Utils.addMonitoring --customise_commands process.RandomNumberGeneratorService.externalLHEProducer.initialSeed="int(${seed}%100)" -n 935 || exit $? ;  \n\n",
+              "title": "Production script"
+            }
+          ],
+          "generators": [
+            "Powheg V2",
+            "pythia8"
+          ],
+          "global_tag": "80X_mcRun2_asymptotic_2016_TrancheIV_v6",
+          "release": "CMSSW_8_0_21",
+          "type": "GEN-SIM"
+        }
+      ]
+    },
+    "publisher": "CERN Open Data Portal",
+    "recid": "12000",
+    "run_period": [
+      "Phase2"
+    ],
+    "system_details": {
+      "global_tag": "",
+      "release": ""
+    },
+    "title": "/TTToHadronic_TuneCP5_13TeV-powheg-pythia8/RunIIFall18wmLHEGS-IdealConditions_102X_upgrade2018_design_v9_ext1-v2/GEN-SIM",
+    "title_additional": "TTToHadronic_TuneCP5_13TeV-powheg-pythia8 in GEN-SIM format for LHC Phase2 studies",
+    "type": {
+      "primary": "Dataset",
+      "secondary": [
+        "Simulated"
+      ]
+    },
+    "usage": {
+      "description": "You can access these data through the CMS Virtual Machine. See the instructions for setting up the Virtual Machine and getting started in",
+      "links": [
+        {
+          "description": "How to install the CMS Virtual Machine",
+          "url": "/docs/cms-virtual-machine-2011"
+        },
+        {
+          "description": "Getting started with CMS open data",
+          "url": "/docs/cms-getting-started-2011"
+        }
+      ]
+    },
+    "validation": {
+      "description": "These data were generated in context of machine learning and they have been validated through general CMS validation procedures."
+    }
+  }
+]
