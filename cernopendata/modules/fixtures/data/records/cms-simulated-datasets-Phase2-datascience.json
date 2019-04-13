@@ -88,6 +88,7 @@
     },
     "publisher": "CERN Open Data Portal",
     "recid": "FIXME",
+    ],
     "run_period": [
       "Phase2"
     ],
@@ -202,13 +203,20 @@
       "description": "<p>To make these simulated data comparable with the collision data, <a href=\"/docs/cms-guide-pileup-simulation\">pile-up events</a> are added to the simulated event in this step.</p>", 
       "links": [
         {
-          "recid": "FIXME", 
-          "title": "/MinBias_TuneZ2star_8TeV-pythia6/Summer12-START50_V13-v3/GEN-SIM"
+          "recid": "FIXME-from-below", 
+          "title": "/MinBias_TuneCP5_13TeV-pythia8/RunIIFall18GS-IdealGeometry_102X_upgrade2018_design_v9-v1/GEN-SIM"
         }
       ]
     }, 
     "publisher": "CERN Open Data Portal",
     "recid": "FIXME",
+    "relations": [
+      {
+        "description": "This dataset is processed from:",
+        "recid": "FIXME-from-above",
+        "title": "/TTToHadronic_TuneCP5_13TeV-powheg-pythia8/RunIIFall18wmLHEGS-IdealConditions_102X_upgrade2018_design_v9_ext1-v2/GEN-SIM",
+        "type": "isChildOf"
+      }
     "run_period": [
       "Phase2"
     ],
