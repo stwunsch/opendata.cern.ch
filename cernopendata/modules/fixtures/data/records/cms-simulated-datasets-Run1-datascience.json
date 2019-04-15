@@ -1,0 +1,131 @@
+[
+ {
+    "abstract": {
+      "description": "<p>Simulated dataset TTJets_HadronicMGDecays_8TeV-madgraph enriched with tracker hit data for tracking algorithm studies in AODSIM format for 2012 collision data.</p><p>See the description of the simulated dataset names in: <a href=\"/about/CMS-Simulated-Dataset-Names\">About CMS simulated dataset names</a>.</p> <p>These simulated datasets correspond to the collision data collected by the CMS experiment in 2012. They were released in the context of data science sample production.</p>"
+    }, 
+    "accelerator": "CERN-LHC", 
+    "categories": {
+      "primary": "Standard Model Physics", 
+      "secondary": [
+        "Top physics"
+      ], 
+      "source": "CMS Collaboration"
+    }, 
+    "collaboration": {
+      "name": "CMS collaboration", 
+      "recid": "451"
+    }, 
+    "collections": [
+      "CMS-Simulated-Datasets"
+    ], 
+    "collision_information": {
+      "energy": "8TeV", 
+      "type": "pp"
+    }, 
+    "control_number": "FIXME", 
+    "date_created": [
+      "2012"
+    ], 
+    "date_published": "2019", 
+    "date_reprocessed": "2019", 
+    "distribution": {
+      "formats": [
+        "aodsim", 
+        "root"
+      ], 
+      "number_events": FIXME, 
+      "number_files": FIXME, 
+      "size": FIXME
+    }, 
+    "doi": "FIXME", 
+    "experiment": "CMS", 
+    "files": [], 
+    "generator": {
+      "global_tag": "", 
+      "names": []
+    }, 
+    "methodology": {
+      "description": "<p>These data were generated in several steps (see also <a href=\"/docs/cms-mc-production-overview\">CMS Monte Carlo production overview</a>):</p>\n", 
+      "steps": [
+        {
+          "configuration_files": [
+            {
+              "process": "SIM", 
+              "recid": "FIXME", 
+              "title": "FIXME: Modified SIM config to produce the file in the open data env https://github.com/emanueleusai/opendatadnn/blob/master/step0_ttbar_V27.py"
+            }
+          ], 
+          "global_tag": "START53_V27", 
+          "output_dataset": "FIXME output dataset step0", 
+          "release": "CMSSW_5_3_32", 
+          "type": "SIM"
+        }, 
+        {
+          "configuration_files": [
+            {
+              "process": "HLT2", 
+              "recid": "FIXME", 
+              "title": "FIXME: Modified configuration file for HLT step to keep tracker recHits https://github.com/emanueleusai/opendatadnn/blob/master/step1_ttbar_V27.py"
+            }, 
+            {
+              "process": "RECO2", 
+              "recid": "FIXME", 
+              "title": "Modified c onfiguration file for RECO step to keep tracker recHits https://github.com/emanueleusai/opendatadnn/blob/master/step2_ttbar_V27.py"
+            }
+          ], 
+          "global_tag": "START53_V27", 
+          "output_dataset": "FIXME: these files", 
+          "release": "CMSSW_5_3_32", 
+          "type": "HLT RECO"
+        }
+      ]
+    }, 
+    "pileup": {
+      "description": "<p>To make these simulated data comparable with the collision data, <a href=\"/docs/cms-guide-pileup-simulation\">pile-up events</a> are added to the simulated event in this step.</p>", 
+      "links": [
+        {
+          "recid": "37", 
+          "title": "/MinBias_TuneZ2star_8TeV-pythia6/Summer12-START50_V13-v3/GEN-SIM"
+        }
+      ]
+    }, 
+    "publisher": "CERN Open Data Portal", 
+    "recid": "FIXME", 
+    "run_period": [
+      "Run2012A", 
+      "Run2012B", 
+      "Run2012C", 
+      "Run2012D"
+    ], 
+    "system_details": {
+      "global_tag": "START53_LV6A1::All", 
+      "release": "CMSSW_5_3_32"
+    }, 
+    "title": "Trakcer-hit-enriched ", 
+    "title_additional": "Simulated dataset TTJets_HadronicMGDecays_8TeV-madgraph enriched with tracker hits in AODSIM format for 2012 collision data", 
+    "type": {
+      "primary": "Dataset", 
+      "secondary": [
+        "Simulated"
+      ]
+    }, 
+    "usage": {
+      "description": "You can access these data through the CMS Virtual Machine. See the instructions for setting up the Virtual Machine and getting started in", 
+      "links": [
+        {
+          "description": "How to install the CMS Virtual Machine", 
+          "url": "/docs/cms-virtual-machine-2011"
+        }, 
+        {
+          "description": "Getting started with CMS open data", 
+          "url": "/docs/cms-getting-started-2011"
+        }
+      ]
+    }, 
+    "validation": {
+      "description": "The generation and simulation of simulated Monte Carlo data has been validated through general CMS validation procedures."
+    }
+  }, 
+  },
+]
+
