@@ -52,7 +52,7 @@
             {
               "process": "SIM", 
               "recid": "FIXME", 
-              "title": "FIXME: Modified SIM config to force all-jets decays and pT of both of the tops > 400 GeV and to keep simtracks https://github.com/emanueleusai/opendatadnn/blob/master/step0_ttbar_V27.py"
+              "title": "Modified SIM config to force all-jets decays and pT of both of the tops > 400 GeV and to keep simulated tracks FIXME from https://github.com/cms-legacydata-analyses/TrackerRecHitProducerTool/blob/master/configs/step0_ttbar.py"
             }
           ], 
           "global_tag": "START53_V27", 
@@ -63,14 +63,14 @@
         {
           "configuration_files": [
             {
-              "process": "HLT2", 
+              "process": "HLT", 
               "recid": "FIXME", 
-              "title": "FIXME: Modified configuration file for HLT step to keep tracker recHits https://github.com/emanueleusai/opendatadnn/blob/master/step1_ttbar_V27.py"
+              "title": "Modified configuration file for HLT step to keep tracker recHits FIXME from https://github.com/cms-legacydata-analyses/TrackerRecHitProducerTool/blob/master/configs/step1.py"
             }, 
             {
-              "process": "RECO2", 
+              "process": "RECO", 
               "recid": "FIXME", 
-              "title": "Modified configuration file for RECO step to keep tracker recHits https://github.com/emanueleusai/opendatadnn/blob/master/step2_ttbar_V27.py"
+              "title": "Modified configuration file for RECO step to keep tracker recHits FIXME from https://github.com/cms-legacydata-analyses/TrackerRecHitProducerTool/blob/master/configs/step2.py"
             }
           ], 
           "global_tag": "START53_V27", 
@@ -186,7 +186,7 @@
             {
               "process": "SIM", 
               "recid": "FIXME", 
-              "title": "FIXME: Modified SIM config to to keep simtracks from the github reco"
+              "title": "Modified SIM config to keep simulated tracks FIXME from https://github.com/cms-legacydata-analyses/TrackerRecHitProducerTool/blob/master/configs/step0_QCD300to600.py"
             }
           ], 
           "global_tag": "START53_V27", 
@@ -197,14 +197,14 @@
         {
           "configuration_files": [
             {
-              "process": "HLT2", 
+              "process": "HLT", 
               "recid": "FIXME", 
-              "title": "FIXME: Modified configuration file for HLT step to keep tracker recHits "
+              "title": "Modified configuration file for HLT step to keep tracker recHits FIXME from https://github.com/cms-legacydata-analyses/TrackerRecHitProducerTool/blob/master/configs/step1.py"
             }, 
             {
-              "process": "RECO2", 
+              "process": "RECO", 
               "recid": "FIXME", 
-              "title": "Modified configuration file for RECO step to keep tracker recHits "
+              "title": "Modified configuration file for RECO step to keep tracker recHits FIXME from https://github.com/cms-legacydata-analyses/TrackerRecHitProducerTool/blob/master/configs/step2.py"
             }
           ], 
           "global_tag": "START53_V27", 
@@ -320,7 +320,7 @@
             {
               "process": "SIM", 
               "recid": "FIXME", 
-              "title": "FIXME: Modified SIM config to to keep simtracks from the github reco"
+              "title": "Modified SIM config to keep simulated tracks FIXME from https://github.com/cms-legacydata-analyses/TrackerRecHitProducerTool/blob/master/configs/step0_QCD400to600.py"
             }
           ], 
           "global_tag": "START53_V27", 
@@ -331,14 +331,14 @@
         {
           "configuration_files": [
             {
-              "process": "HLT2", 
+              "process": "HLT", 
               "recid": "FIXME", 
-              "title": "FIXME: Modified configuration file for HLT step to keep tracker recHits "
+              "title": "Modified configuration file for HLT step to keep tracker recHits FIXME from https://github.com/cms-legacydata-analyses/TrackerRecHitProducerTool/blob/master/configs/step1.py"
             }, 
             {
-              "process": "RECO2", 
+              "process": "RECO", 
               "recid": "FIXME", 
-              "title": "Modified configuration file for RECO step to keep tracker recHits "
+              "title": "Modified configuration file for RECO step to keep tracker recHits FIXME from https://github.com/cms-legacydata-analyses/TrackerRecHitProducerTool/blob/master/configs/step2.py"
             }
           ], 
           "global_tag": "START53_V27", 
@@ -454,7 +454,7 @@
             {
               "process": "SIM", 
               "recid": "FIXME", 
-              "title": "FIXME: Modified SIM config to to keep simtracks from the github reco"
+              "title": "Modified SIM config to keep simulated tracks FIXME from https://github.com/cms-legacydata-analyses/TrackerRecHitProducerTool/blob/master/configs/step0_QCD600to3000.py"
             }
           ], 
           "global_tag": "START53_V27", 
@@ -465,14 +465,14 @@
         {
           "configuration_files": [
             {
-              "process": "HLT2", 
+              "process": "HLT", 
               "recid": "FIXME", 
-              "title": "FIXME: Modified configuration file for HLT step to keep tracker recHits "
+              "title": "Modified configuration file for HLT step to keep tracker recHits FIXME from https://github.com/cms-legacydata-analyses/TrackerRecHitProducerTool/blob/master/configs/step1.py"
             }, 
             {
-              "process": "RECO2", 
+              "process": "RECO", 
               "recid": "FIXME", 
-              "title": "Modified configuration file for RECO step to keep tracker recHits "
+              "title": "Modified configuration file for RECO step to keep tracker recHits FIXME from https://github.com/cms-legacydata-analyses/TrackerRecHitProducerTool/blob/master/configs/step2.py"
             }
           ], 
           "global_tag": "START53_V27", 
