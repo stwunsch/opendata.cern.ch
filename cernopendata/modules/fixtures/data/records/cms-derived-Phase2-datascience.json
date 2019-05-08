@@ -14,7 +14,6 @@
       {
         "name": "Pierini, Maurizio"
       }
-,
     ],
     "collections": [
       "CMS-Derived-Datasets"
@@ -42,8 +41,7 @@
         "variable": "inDetSeq"
       },
       {
-        "description": "Sequential number for the outer hit
-        hit layer.",
+        "description": "Sequential number for the outer hit hit layer.",
         "type": "float",
         "variable": "outDetSeq"
       },
@@ -3305,7 +3303,7 @@
       "description": "Use this with CMS Phase2 ttbar GEN-SIM-DIGI-RAW and pile-up GEN-SIM datasets:",
       "links": [
         {
-          "recid": "FIXME" #2520
+          "recid": "FIXME" 
         }
       ]
     }
