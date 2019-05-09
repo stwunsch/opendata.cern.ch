@@ -1,7 +1,7 @@
 [
   {
     "abstract": {
-      "description": "<p>MinimumBias primary dataset in AOD format from Commissioning run of 2010. This dataset includes the data from  <a href=\“http://inspirehep.net/record/1227802/\">the CASTOR calorimeter</a>, which covers the very forward region in the CMS experiment (-6.6 < eta < -5.2). </p> <p> The list of validated runs, which must be applied to all analyses, can be found in</p>",
+      "description": "<p>MinimumBias primary dataset in AOD format from Commissioning run of 2010. This dataset includes the data from  <a href=\"http://inspirehep.net/record/1227802/\">the CASTOR calorimeter</a>, which covers the very forward region in the CMS experiment (-6.6 < eta < -5.2). </p> <p> The list of validated runs, which must be applied to all analyses, can be found in</p>",
       "links": [
         {
           "recid": "FIXME"
@@ -98,7 +98,7 @@
   },
   {
     "abstract": {
-      "description": "<p>MinimumBias primary dataset in AOD format from Commissioning run of 2010. This dataset includes the data from <a href=\“http://inspirehep.net/record/1227802/\">the CASTOR calorimeter</a>, which covers the very forward region in the CMS experiment (-6.6 < eta < -5.2). </p> <p> The list of validated runs, which must be applied to all analyses, can be found in</p>",
+      "description": "<p>MinimumBias primary dataset in AOD format from Commissioning run of 2010. This dataset includes the data from <a href=\"http://inspirehep.net/record/1227802/\">the CASTOR calorimeter</a>, which covers the very forward region in the CMS experiment (-6.6 < eta < -5.2). </p> <p> The list of validated runs, which must be applied to all analyses, can be found in</p>",
       "links": [
         {
           "recid": "FIXME"
