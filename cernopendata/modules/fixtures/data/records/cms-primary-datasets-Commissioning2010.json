@@ -66,9 +66,9 @@
       ]
     },
     "usage": {
-      "description": "You can access these data through the CMS Virtual Machine. See the instructions for setting up the Virtual Machine and getting started with CASTOR calorimeter data",
+      "description": "You can access these data through the CMS Virtual Machine. See the instructions for setting up the Virtual Machine and getting started with CASTOR calorimeter data in",
       "links": [
-        { in
+        { 
           "description": "How to install the CMS Virtual Machine",
           "url": "/VM/CMS"
         },
@@ -163,9 +163,9 @@
       ]
     },
     "usage": {
-      "description": "You can access these data through the CMS Virtual Machine. See the instructions for setting up the Virtual Machine and getting started with CASTOR calorimeter data",
+      "description": "You can access these data through the CMS Virtual Machine. See the instructions for setting up the Virtual Machine and getting started with CASTOR calorimeter data in",
       "links": [
-        { in
+        { 
           "description": "How to install the CMS Virtual Machine",
           "url": "/VM/CMS"
         },
@@ -260,9 +260,9 @@
       ]
     },
     "usage": {
-      "description": "You can access these data through the CMS Virtual Machine. See the instructions for setting up the Virtual Machine and getting started with CASTOR calorimeter data",
+      "description": "You can access these data through the CMS Virtual Machine. See the instructions for setting up the Virtual Machine and getting started with CASTOR calorimeter data in",
       "links": [
-        { in
+        {
           "description": "How to install the CMS Virtual Machine",
           "url": "/VM/CMS"
         },
