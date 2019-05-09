@@ -1,7 +1,7 @@
 [
   {
     "abstract": {
-      "description": "<p>MinimumBias primary dataset in AOD format from Commissioning run of 2010. This dataset includes the data from  <a href=\"http://inspirehep.net/record/1227802/\">the CASTOR calorimeter</a>, which covers the very forward region in the CMS experiment (-6.6 < eta < -5.2). </p> <p> The list of validated runs, which must be applied to all analyses, can be found in</p>",
+      "description": "<p>MinimumBias primary dataset in RECO format from Commissioning run of 2010. This dataset includes the data from  <a href=\"http://inspirehep.net/record/1227802/\">the CASTOR calorimeter</a>, which covers the very forward region in the CMS experiment (-6.6 < eta < -5.2). </p> <p> The list of validated runs, which must be applied to all analyses, can be found in</p>",
       "links": [
         {
           "recid": "FIXME"
@@ -28,7 +28,7 @@
     "distribution": {
       "formats": [
         "root",
-        "aod"
+        "reco"
       ],
       "number_events": 19958247,
       "number_files": 563,
@@ -58,7 +58,7 @@
       "release": "CMSSW_4_2_8_lowpupatch1"
     },
     "title": "/MinimumBias/Commissioning10-07JunReReco_900GeV/RECO",
-    "title_additional": "MinimumBias primary dataset in AOD format from Commissioning run of 2010 (/MinimumBias/Commissioning10-07JunReReco_900GeV/RECO)",
+    "title_additional": "MinimumBias primary dataset in RECO format from Commissioning run of 2010 (/MinimumBias/Commissioning10-07JunReReco_900GeV/RECO)",
     "type": {
       "primary": "Dataset",
       "secondary": [
@@ -98,7 +98,7 @@
   },
   {
     "abstract": {
-      "description": "<p>MinimumBias primary dataset in AOD format from Commissioning run of 2010. This dataset includes the data from <a href=\"http://inspirehep.net/record/1227802/\">the CASTOR calorimeter</a>, which covers the very forward region in the CMS experiment (-6.6 < eta < -5.2). </p> <p> The list of validated runs, which must be applied to all analyses, can be found in</p>",
+      "description": "<p>MinimumBias primary dataset in RECO format from Commissioning run of 2010. This dataset includes the data from <a href=\"http://inspirehep.net/record/1227802/\">the CASTOR calorimeter</a>, which covers the very forward region in the CMS experiment (-6.6 < eta < -5.2). </p> <p> The list of validated runs, which must be applied to all analyses, can be found in</p>",
       "links": [
         {
           "recid": "FIXME"
@@ -125,7 +125,7 @@
     "distribution": {
       "formats": [
         "root",
-        "aod"
+        "reco"
       ],
       "number_events": 46553963,
       "number_files": 1452,
@@ -155,7 +155,7 @@
       "release": "CMSSW_4_2_8_lowpupatch1"
     },
     "title": "/MinimumBias/Commissioning10-May19ReReco-v1/RECO",
-    "title_additional": "MinimumBias primary dataset in AOD format from Commissioning run of 2010 (/MinimumBias/Commissioning10-May19ReReco-v1/RECO)",
+    "title_additional": "MinimumBias primary dataset in RECO format from Commissioning run of 2010 (/MinimumBias/Commissioning10-May19ReReco-v1/RECO)",
     "type": {
       "primary": "Dataset",
       "secondary": [
@@ -195,7 +195,7 @@
   },
    {
     "abstract": {
-      "description": "<p>ZeroBias primary dataset in AOD format from Commissioning run of 2010. This dataset includes the data from <a href=\"http://inspirehep.net/record/1227802/\">the CASTOR calorimeter</a>, which covers the very forward region in the CMS experiment (-6.6 < eta < -5.2). </p> <p> The list of validated runs, which must be applied to all analyses, can be found in</p>",
+      "description": "<p>ZeroBias primary dataset in RECO format from Commissioning run of 2010. This dataset includes the data from <a href=\"http://inspirehep.net/record/1227802/\">the CASTOR calorimeter</a>, which covers the very forward region in the CMS experiment (-6.6 < eta < -5.2). </p> <p> The list of validated runs, which must be applied to all analyses, can be found in</p>",
       "links": [
         {
           "recid": "FIXME"
@@ -222,7 +222,7 @@
     "distribution": {
       "formats": [
         "root",
-        "aod"
+        "reco"
       ],
       "number_events": 129186198,
       "number_files": 3045,
@@ -252,7 +252,7 @@
       "release": "CMSSW_4_2_8_lowpupatch1"
     },
     "title": "/ZeroBias/Commissioning10-May19ReReco-v1/RECO",
-    "title_additional": "ZeroBias primary dataset in AOD format from Commissioning run of 2010 (/ZeroBias/Commissioning10-May19ReReco-v1/RECO)",
+    "title_additional": "ZeroBias primary dataset in RECO format from Commissioning run of 2010 (/ZeroBias/Commissioning10-May19ReReco-v1/RECO)",
     "type": {
       "primary": "Dataset",
       "secondary": [
