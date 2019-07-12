@@ -1,0 +1,90 @@
+[
+  {
+    "abstract": {
+      "description": "<p>TODO</p>"
+    },
+    "accelerator": "CERN-LHC",
+    "authors": [
+      {
+        "name": "Wunsch, Stefan"
+      }
+    ],
+    "collections": [
+      "CMS-Tools"
+    ],
+    "date_published": "2019",
+    "distribution": {
+      "formats": [
+        "cc",
+        "py",
+        "zip"
+      ],
+      "number_files": 4,
+      "size": 76098
+    },
+    "experiment": "CMS",
+    "files": [
+      {
+        "checksum": "adler32:51f0615b",
+        "size": 2839,
+        "uri": "https://foo.bar/file.bla"
+      }
+    ],
+    "license": {
+      "attribution": "GNU General Public License (GPL) version 3"
+    },
+    "publisher": "CERN Open Data Portal",
+    "recid": "12360",
+    "relations": [
+      {
+        "description": "",
+        "recid": "12341",
+        "type": "isRelatedTo"
+      },
+      {
+        "description": "",
+        "recid": "6004",
+        "type": "isRelatedTo"
+      },
+      {
+        "description": "",
+        "recid": "6030",
+        "type": "isRelatedTo"
+      },
+      {
+        "description": "",
+        "recid": "252",
+        "type": "isRelatedTo"
+      }
+    ],
+    "run_period": [
+      "Run2012A",
+      "Run2012B"
+    ],
+    "source_code_repository": {
+      "url": "https://github.com/cms-opendata-analyses/HiggsTauTauNanoAODOutreachAnalysis"
+    },
+    "system_details": {
+      "description": "This code can be used with the CMS Open Data VM environment.",
+      "release": "ROOT 6.16 or later"
+    },
+    "title": "Analysis of Higgs boson decays to two tau leptons using data and simulation from the CMS detector taken in 2012",
+    "type": {
+      "primary": "Software",
+      "secondary": [
+        "Analysis"
+      ]
+    },
+    "usage": {
+      "description": "<p>TODO</p>"
+    },
+    "use_with": {
+      "description": "The analysis can be run with the following dataset:",
+      "links": [
+        {
+          "recid": "12343"
+        }
+      ]
+    }
+  }
+]
