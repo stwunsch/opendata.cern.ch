@@ -1,7 +1,7 @@
 [
   {
     "abstract": {
-      "description": "<p>This record documents the dataset semantics and common characteristics of the reduced NanoAOD files linked below.</p>"
+      "description": "<p>Dataset in reduced NanoAOD format for education and outreach with events of Higgs bosons from gluon-fusion decaying into two tau leptons.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -253,7 +253,7 @@
      ]
    },
     "validation": {
-      "description": "<p>These data were derived from the respective primary datasets using only the validated runs. No further validation was done for the output.</p>",
+      "description": "<p>These data were derived from the primary datasets linked below using only the validated runs. No further validation was done for the output.</p>",
     "links": [
        {
          "recid": "6004"
@@ -266,15 +266,8 @@
       "attribution": "CC0"
     },
     "publisher": "CERN Open Data Portal",
-    "recid": "12343",
-    "relations": [
-      {
-        "description": "",
-        "recid": "12344",
-        "type": "isRelatedTo"
-      }
-    ],
-    "title": "Dataset description of the reduced NanoAOD files for education and outreach",
+    "recid": "12351",
+    "title": "GluGluToHToTauTau dataset in reduced NanoAOD format for education and outreach",
     "type": {
       "primary": "Dataset",
       "secondary": [
@@ -285,53 +278,7 @@
       "description": "This dataset can be used with the following analysis:",
       "links": [
         {
-          "recid": "12360"
-        }
-      ]
-    }
-  },
-
-
-
-  {
-    "abstract": {
-      "description": "Dataset in reduced NanoAOD format for education and outreach with events of Higgs bosons from gluon-fusion. The related primary dataset in AOD format is linked below."
-    },
-    "accelerator": "CERN-LHC",
-    "authors": [
-      {
-        "name": "Wunsch, Stefan"
-      }
-    ],
-    "collections": [
-      "CMS-Tools"
-    ],
-    "date_published": "2019",
-    "experiment": "CMS",
-    "license": {
-      "attribution": "CC0"
-    },
-    "publisher": "CERN Open Data Portal",
-    "recid": "12344",
-    "title": "GluGluToHToTauTau dataset in reduced NanoAOD format for education and outreach",
-    "relations": [
-      {
-        "description": "",
-        "recid": "8001",
-        "type": "isRelatedTo"
-      }
-    ],
-    "type": {
-      "primary": "Dataset",
-      "secondary": [
-        "Derived"
-      ]
-    },
-    "use_with": {
-      "description": "The details of this dataset are described in the following record.",
-      "links": [
-        {
-          "recid": "12343"
+          "recid": "12350"
         }
       ]
     },
@@ -344,9 +291,9 @@
     },
     "files": [
       {
-        "checksum": "adler32:51f0615b",
+        "checksum": "adler32:51f0616b",
         "size": 2839123,
-        "uri": "root://foo.bar1/file1.root"
+        "uri": "root://foo.bar1/file3.root"
       }
     ]
   }

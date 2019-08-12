@@ -1,7 +1,7 @@
 [
   {
     "abstract": {
-      "description": "<p>TODO</p>"
+      "description": "<p>This analysis uses data and simulated events from the CMS experiment in 2012 with the goal to study decays of the Higgs boson into two tau leptons. The analysis follows loosely the setup of <a href=\"http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-13-004/index.html\">the official CMS analysis published in 2014</a>.</p><p>The purpose of the original CMS analysis was establishing the existence of the Higgs boson decaying into two tau leptons. Since performing this analysis properly with full consideration of all systematic uncertainties is an enormously complex task, we reduce this analysis to the qualitative study of the kinematics and properties of such events without a statistical analysis. However, as you can explore in this record, already such a reduced analysis is complex and requires a fair amount of physics knowledge, which makes this a perfect first look into the procedures required to claim the evidence or existence of a new particle.</p><p>Two example results produced by this analysis can be seen below showing the invariant mass of the di-tau system and the number of primary vertices of the selected events. The plots show the data recorded by the detector compared to the estimation of the contributing processes, which are explained in the following.</p><p><img src=\"https://github.com/cms-opendata-analyses/HiggsTauTauNanoAODOutreachAnalysis/blob/master/plots/m_vis.png?raw=true\" width=50% align=\"middle\"><img src=\"https://github.com/cms-opendata-analyses/HiggsTauTauNanoAODOutreachAnalysis/blob/master/plots/npv.png?raw=true\" width=50% align=\"middle\"></p><p><strong>Signal process</strong></p><p>The physical process of interest, also often called signal, is the Higgs boson decaying into two tau leptons. This process consists mainly of two sub-processes categorized by the production mode of the Higgs boson, namely the gluon fusion and the vector boson fusion production with the labels $gg\\rightarrow H$ and $qq\\rightarrow H$, respectively. See below the two Feynman diagrams that describe the processes in leading order.</p><p align=\"middle\"><img src=\"http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-13-004/CMS-HIG-13-004_Figure_001-a.png\" width=30% align=\"middle\" style=\"margin-right: 5%\"><img src=\"http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-13-004/CMS-HIG-13-004_Figure_001-b.png\" width=30% align=\"middle\" style=\"margin-left: 5%\"></p><p><strong>Background processes</strong></p><p>Besides the Higgs boson decaying into two tau leptons, many other processes can produce very similar signatures in the detector, which have to be taken into account for to draw any conclusions from the data. In the following, the most prominent processes with a similar signature than the signal are presented.</p><p>ZTT</p><p>ZLL</p><p>W</p><p>TT</p><p>QCD</p><p><strong>Analysis steps</strong></p><p>TODO: Enumeration of the steps from the NanoAOD data to the final plots.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -25,38 +25,16 @@
     "experiment": "CMS",
     "files": [
       {
-        "checksum": "adler32:51f0615b",
+        "checksum": "adler32:51f0615c",
         "size": 2839,
-        "uri": "https://foo.bar/file.bla"
+        "uri": "https://foo.bar/file2.zip"
       }
     ],
     "license": {
       "attribution": "GNU General Public License (GPL) version 3"
     },
     "publisher": "CERN Open Data Portal",
-    "recid": "12360",
-    "relations": [
-      {
-        "description": "",
-        "recid": "12341",
-        "type": "isRelatedTo"
-      },
-      {
-        "description": "",
-        "recid": "6004",
-        "type": "isRelatedTo"
-      },
-      {
-        "description": "",
-        "recid": "6030",
-        "type": "isRelatedTo"
-      },
-      {
-        "description": "",
-        "recid": "252",
-        "type": "isRelatedTo"
-      }
-    ],
+    "recid": "12350",
     "run_period": [
       "Run2012A",
       "Run2012B"
@@ -79,10 +57,10 @@
       "description": "<p>TODO</p>"
     },
     "use_with": {
-      "description": "The analysis can be run with the following dataset:",
+      "description": "The analysis can be run with the following datasets:",
       "links": [
         {
-          "recid": "12343"
+          "recid": "12351"
         }
       ]
     }
