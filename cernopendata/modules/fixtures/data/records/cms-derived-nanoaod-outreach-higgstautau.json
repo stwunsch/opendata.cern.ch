@@ -1,7 +1,7 @@
 [
   {
     "abstract": {
-      "description": "<p>Dataset in reduced NanoAOD format for education and outreach with events of Higgs bosons from gluon-fusion decaying into two tau leptons.</p>"
+      "description": "<p>Dataset in reduced NanoAOD format for education and outreach derived from the primary dataset in AOD format linked below.</p>"
     },
     "accelerator": "CERN-LHC",
     "authors": [
@@ -293,7 +293,7 @@
       {
         "checksum": "adler32:51f0616b",
         "size": 2839123,
-        "uri": "root://foo.bar1/file3.root"
+        "uri": "root://foo.bar1/file.root"
       }
     ]
   }
