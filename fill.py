@@ -9,15 +9,15 @@ if ref["recid"] != "12351":
     raise Exception
 
 links = [
-        6004,
-        6004,
-        6004,
-        6004,
-        6004,
-        6004,
-        6004,
-        6004,
-        6004,
+        8001,
+        9743,
+        7730,
+        9518,
+        9863,
+        9864,
+        9865,
+        6024,
+        6050,
         ]
 titles = [
     "GluGluToHToTauTau",
@@ -59,7 +59,7 @@ for i in range(len(titles)):
     tmp["validation"]["links"][0]["recid"] = str(links[i])
     tmp["recid"] = str(int(12351+i))
     tmp["title"] = ref["title"].replace("GluGluToHToTauTau", titles[i])
-    tmp["files"][0]["uri"] = "root://some/folder/" + titles[i] + ".root"
+    tmp["files"][0]["uri"] = "root://eospublic.cern.ch//eos/opendata/cms/software/HiggsTauTauNanoAODOutreachAnalysis/" + titles[i] + ".root"
     tmp["files"][0]["checksum"] = "adler32:51f0616" + str(i)
     tmp["files"][0]["size"] = sizes[i]
     tmp["distribution"]["size"] = sizes[i]

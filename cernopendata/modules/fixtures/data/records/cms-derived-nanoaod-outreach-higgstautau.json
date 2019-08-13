@@ -258,7 +258,7 @@
             {
                 "checksum": "adler32:51f06160",
                 "size": 220877894,
-                "uri": "root://some/folder/GluGluToHToTauTau.root"
+                "uri": "root://eospublic.cern.ch//eos/opendata/cms/software/HiggsTauTauNanoAODOutreachAnalysis/GluGluToHToTauTau.root"
             }
         ],
         "license": {
@@ -293,7 +293,7 @@
             "description": "<p>These data were derived from the primary datasets linked below using only the validated runs. No further validation was done for the output.</p>",
             "links": [
                 {
-                    "recid": "6004"
+                    "recid": "8001"
                 }
             ]
         }
@@ -557,7 +557,7 @@
             {
                 "checksum": "adler32:51f06161",
                 "size": 263790659,
-                "uri": "root://some/folder/VBF_HToTauTau.root"
+                "uri": "root://eospublic.cern.ch//eos/opendata/cms/software/HiggsTauTauNanoAODOutreachAnalysis/VBF_HToTauTau.root"
             }
         ],
         "license": {
@@ -592,7 +592,7 @@
             "description": "<p>These data were derived from the primary datasets linked below using only the validated runs. No further validation was done for the output.</p>",
             "links": [
                 {
-                    "recid": "6004"
+                    "recid": "9743"
                 }
             ]
         }
@@ -856,7 +856,7 @@
             {
                 "checksum": "adler32:51f06162",
                 "size": 10516614885,
-                "uri": "root://some/folder/DYJetsToLL.root"
+                "uri": "root://eospublic.cern.ch//eos/opendata/cms/software/HiggsTauTauNanoAODOutreachAnalysis/DYJetsToLL.root"
             }
         ],
         "license": {
@@ -891,7 +891,7 @@
             "description": "<p>These data were derived from the primary datasets linked below using only the validated runs. No further validation was done for the output.</p>",
             "links": [
                 {
-                    "recid": "6004"
+                    "recid": "7730"
                 }
             ]
         }
@@ -1155,7 +1155,7 @@
             {
                 "checksum": "adler32:51f06163",
                 "size": 4139529585,
-                "uri": "root://some/folder/TTbar.root"
+                "uri": "root://eospublic.cern.ch//eos/opendata/cms/software/HiggsTauTauNanoAODOutreachAnalysis/TTbar.root"
             }
         ],
         "license": {
@@ -1190,7 +1190,7 @@
             "description": "<p>These data were derived from the primary datasets linked below using only the validated runs. No further validation was done for the output.</p>",
             "links": [
                 {
-                    "recid": "6004"
+                    "recid": "9518"
                 }
             ]
         }
@@ -1454,7 +1454,7 @@
             {
                 "checksum": "adler32:51f06164",
                 "size": 11396739482,
-                "uri": "root://some/folder/W1JetsToLNu.root"
+                "uri": "root://eospublic.cern.ch//eos/opendata/cms/software/HiggsTauTauNanoAODOutreachAnalysis/W1JetsToLNu.root"
             }
         ],
         "license": {
@@ -1489,7 +1489,7 @@
             "description": "<p>These data were derived from the primary datasets linked below using only the validated runs. No further validation was done for the output.</p>",
             "links": [
                 {
-                    "recid": "6004"
+                    "recid": "9863"
                 }
             ]
         }
@@ -1753,7 +1753,7 @@
             {
                 "checksum": "adler32:51f06165",
                 "size": 13194361062,
-                "uri": "root://some/folder/W2JetsToLNu.root"
+                "uri": "root://eospublic.cern.ch//eos/opendata/cms/software/HiggsTauTauNanoAODOutreachAnalysis/W2JetsToLNu.root"
             }
         ],
         "license": {
@@ -1788,7 +1788,7 @@
             "description": "<p>These data were derived from the primary datasets linked below using only the validated runs. No further validation was done for the output.</p>",
             "links": [
                 {
-                    "recid": "6004"
+                    "recid": "9864"
                 }
             ]
         }
@@ -2052,7 +2052,7 @@
             {
                 "checksum": "adler32:51f06166",
                 "size": 7205227863,
-                "uri": "root://some/folder/W3JetsToLNu.root"
+                "uri": "root://eospublic.cern.ch//eos/opendata/cms/software/HiggsTauTauNanoAODOutreachAnalysis/W3JetsToLNu.root"
             }
         ],
         "license": {
@@ -2087,7 +2087,7 @@
             "description": "<p>These data were derived from the primary datasets linked below using only the validated runs. No further validation was done for the output.</p>",
             "links": [
                 {
-                    "recid": "6004"
+                    "recid": "9865"
                 }
             ]
         }
@@ -2351,7 +2351,7 @@
             {
                 "checksum": "adler32:51f06167",
                 "size": 13367993207,
-                "uri": "root://some/folder/Run2012B_TauPlusX.root"
+                "uri": "root://eospublic.cern.ch//eos/opendata/cms/software/HiggsTauTauNanoAODOutreachAnalysis/Run2012B_TauPlusX.root"
             }
         ],
         "license": {
@@ -2386,7 +2386,7 @@
             "description": "<p>These data were derived from the primary datasets linked below using only the validated runs. No further validation was done for the output.</p>",
             "links": [
                 {
-                    "recid": "6004"
+                    "recid": "6024"
                 }
             ]
         }
@@ -2650,7 +2650,7 @@
             {
                 "checksum": "adler32:51f06168",
                 "size": 19403533123,
-                "uri": "root://some/folder/Run2012C_TauPlusX.root"
+                "uri": "root://eospublic.cern.ch//eos/opendata/cms/software/HiggsTauTauNanoAODOutreachAnalysis/Run2012C_TauPlusX.root"
             }
         ],
         "license": {
@@ -2685,7 +2685,7 @@
             "description": "<p>These data were derived from the primary datasets linked below using only the validated runs. No further validation was done for the output.</p>",
             "links": [
                 {
-                    "recid": "6004"
+                    "recid": "6050"
                 }
             ]
         }
