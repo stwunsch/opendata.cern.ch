@@ -42,15 +42,26 @@ events = [
         51303171
         ]
 sizes = [
-        220877894,
-        263790659,
-        10516614885,
-        4139529585,
-        11396739482,
-        13194361062,
-        7205227863,
-        13367993207,
-        19403533123
+        196517149,
+        231849713,
+        9247252629,
+        3528995041,
+        10731401995,
+        12161887620,
+        6544850738,
+        10918632568,
+        15886107547
+        ]
+hashes = [
+        "2b025925",
+        "8967f330",
+        "dfd0d57c",
+        "99ffd168",
+        "e5d19fd7",
+        "26b03d60",
+        "5a2b198a",
+        "8b8629d5",
+        "5590ee9f"
         ]
 
 n = []
@@ -60,7 +71,7 @@ for i in range(len(titles)):
     tmp["recid"] = str(int(12351+i))
     tmp["title"] = ref["title"].replace("GluGluToHToTauTau", titles[i])
     tmp["files"][0]["uri"] = "root://eospublic.cern.ch//eos/opendata/cms/software/HiggsTauTauNanoAODOutreachAnalysis/" + titles[i] + ".root"
-    tmp["files"][0]["checksum"] = "adler32:51f0616" + str(i)
+    tmp["files"][0]["checksum"] = "adler32:" + hashes[i]
     tmp["files"][0]["size"] = sizes[i]
     tmp["distribution"]["size"] = sizes[i]
     tmp["distribution"]["number_events"] = events[i]

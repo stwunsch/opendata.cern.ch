@@ -251,13 +251,13 @@
             ],
             "number_events": 476963,
             "number_files": 1,
-            "size": 220877894
+            "size": 196517149
         },
         "experiment": "CMS",
         "files": [
             {
-                "checksum": "adler32:51f06160",
-                "size": 220877894,
+                "checksum": "adler32:2b025925",
+                "size": 196517149,
                 "uri": "root://eospublic.cern.ch//eos/opendata/cms/software/HiggsTauTauNanoAODOutreachAnalysis/GluGluToHToTauTau.root"
             }
         ],
@@ -550,13 +550,13 @@
             ],
             "number_events": 491653,
             "number_files": 1,
-            "size": 263790659
+            "size": 231849713
         },
         "experiment": "CMS",
         "files": [
             {
-                "checksum": "adler32:51f06161",
-                "size": 263790659,
+                "checksum": "adler32:8967f330",
+                "size": 231849713,
                 "uri": "root://eospublic.cern.ch//eos/opendata/cms/software/HiggsTauTauNanoAODOutreachAnalysis/VBF_HToTauTau.root"
             }
         ],
@@ -849,13 +849,13 @@
             ],
             "number_events": 30458871,
             "number_files": 1,
-            "size": 10516614885
+            "size": 9247252629
         },
         "experiment": "CMS",
         "files": [
             {
-                "checksum": "adler32:51f06162",
-                "size": 10516614885,
+                "checksum": "adler32:dfd0d57c",
+                "size": 9247252629,
                 "uri": "root://eospublic.cern.ch//eos/opendata/cms/software/HiggsTauTauNanoAODOutreachAnalysis/DYJetsToLL.root"
             }
         ],
@@ -1148,13 +1148,13 @@
             ],
             "number_events": 6423106,
             "number_files": 1,
-            "size": 4139529585
+            "size": 3528995041
         },
         "experiment": "CMS",
         "files": [
             {
-                "checksum": "adler32:51f06163",
-                "size": 4139529585,
+                "checksum": "adler32:99ffd168",
+                "size": 3528995041,
                 "uri": "root://eospublic.cern.ch//eos/opendata/cms/software/HiggsTauTauNanoAODOutreachAnalysis/TTbar.root"
             }
         ],
@@ -1447,13 +1447,13 @@
             ],
             "number_events": 29784800,
             "number_files": 1,
-            "size": 11396739482
+            "size": 10731401995
         },
         "experiment": "CMS",
         "files": [
             {
-                "checksum": "adler32:51f06164",
-                "size": 11396739482,
+                "checksum": "adler32:e5d19fd7",
+                "size": 10731401995,
                 "uri": "root://eospublic.cern.ch//eos/opendata/cms/software/HiggsTauTauNanoAODOutreachAnalysis/W1JetsToLNu.root"
             }
         ],
@@ -1746,13 +1746,13 @@
             ],
             "number_events": 30693853,
             "number_files": 1,
-            "size": 13194361062
+            "size": 12161887620
         },
         "experiment": "CMS",
         "files": [
             {
-                "checksum": "adler32:51f06165",
-                "size": 13194361062,
+                "checksum": "adler32:26b03d60",
+                "size": 12161887620,
                 "uri": "root://eospublic.cern.ch//eos/opendata/cms/software/HiggsTauTauNanoAODOutreachAnalysis/W2JetsToLNu.root"
             }
         ],
@@ -2045,13 +2045,13 @@
             ],
             "number_events": 15241144,
             "number_files": 1,
-            "size": 7205227863
+            "size": 6544850738
         },
         "experiment": "CMS",
         "files": [
             {
-                "checksum": "adler32:51f06166",
-                "size": 7205227863,
+                "checksum": "adler32:5a2b198a",
+                "size": 6544850738,
                 "uri": "root://eospublic.cern.ch//eos/opendata/cms/software/HiggsTauTauNanoAODOutreachAnalysis/W3JetsToLNu.root"
             }
         ],
@@ -2344,13 +2344,13 @@
             ],
             "number_events": 35647508,
             "number_files": 1,
-            "size": 13367993207
+            "size": 10918632568
         },
         "experiment": "CMS",
         "files": [
             {
-                "checksum": "adler32:51f06167",
-                "size": 13367993207,
+                "checksum": "adler32:8b8629d5",
+                "size": 10918632568,
                 "uri": "root://eospublic.cern.ch//eos/opendata/cms/software/HiggsTauTauNanoAODOutreachAnalysis/Run2012B_TauPlusX.root"
             }
         ],
@@ -2643,13 +2643,13 @@
             ],
             "number_events": 51303171,
             "number_files": 1,
-            "size": 19403533123
+            "size": 15886107547
         },
         "experiment": "CMS",
         "files": [
             {
-                "checksum": "adler32:51f06168",
-                "size": 19403533123,
+                "checksum": "adler32:5590ee9f",
+                "size": 15886107547,
                 "uri": "root://eospublic.cern.ch//eos/opendata/cms/software/HiggsTauTauNanoAODOutreachAnalysis/Run2012C_TauPlusX.root"
             }
         ],
