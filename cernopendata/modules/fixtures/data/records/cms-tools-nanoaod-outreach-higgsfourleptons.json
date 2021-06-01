@@ -48,7 +48,7 @@
       "description": "This code can be used with the CMS Open Data VM environment.",
       "release": "ROOT 6.22 or later"
     },
-    "title": "Analysis of Higgs boson decays to four leptons using data and simulation of events at the CMS detector from 2012",
+    "title": "Analysis of Higgs boson decays to four leptons using data and simulation of events at the CMS detector from 2012 using ROOT's RDataFrame",
     "type": {
       "primary": "Software",
       "secondary": [
